@@ -1,0 +1,9 @@
+<resources>
+    <color name="toolbar_red">#E60000</color>
+    <color name="toolbar_red_dark">#A90000</color>
+    <color name="page_background">#F2F3F5</color>
+    <color name="item_background">#FFFFFF</color>
+    <color name="text_primary">#333333</color>
+    <color name="text_secondary">#707070</color>
+    <color name="rating_tint">#03A9E6</color>
+</resources>

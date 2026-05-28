@@ -1,0 +1,23 @@
+<resources>
+    <!--
+        Main screen theme.
+        NoActionBar is intentional now:
+        activity_list.xml owns a real Toolbar, so the RecyclerView starts below it.
+    -->
+    <style name="Theme.StarsGallery" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/toolbar_red</item>
+        <item name="colorPrimaryDark">@color/toolbar_red_dark</item>
+        <item name="colorAccent">@color/rating_tint</item>
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!--
+        Splash theme.
+        No action bar here: the logo animation must be centered on a clean screen.
+    -->
+    <style name="Theme.StarsGallery.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/page_background</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

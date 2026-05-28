@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">StarsGallery</string>
+    <string name="search">Search</string>
+    <string name="share">Partager</string>
+    <string name="share_title">Partager l’application Stars</string>
+    <string name="share_text">Stars</string>
+</resources>
